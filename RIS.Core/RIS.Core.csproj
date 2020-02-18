@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DVTk Application Layer\DVTk Application Layer.csproj" />
+    <ProjectReference Include="..\DVTk High Level Interface\DVTk High Level Interface.csproj" />
+    <ProjectReference Include="..\RIS.Data\RIS.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DVTK">
+      <HintPath>..\DVTk_Library\DVTK.dll</HintPath>
+    </Reference>
+    <Reference Include="DvtkCommonDataFormat">
+      <HintPath>..\DVTk_Library\DvtkCommonDataFormat.dll</HintPath>
+    </Reference>
+    <Reference Include="DvtkData">
+      <HintPath>..\DVTk_Library\DvtkData.dll</HintPath>
+    </Reference>
+    <Reference Include="DvtkDicomEmulators">
+      <HintPath>..\DVTk_Library\DvtkDicomEmulators.dll</HintPath>
+    </Reference>
+    <Reference Include="DvtkDicomUnicodeConversion">
+      <HintPath>..\DVTk_Library\DvtkDicomUnicodeConversion.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+ 
+
+</Project>
